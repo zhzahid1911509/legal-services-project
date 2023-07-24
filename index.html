@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Solutions</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+
+        .garamond{
+            font-family: 'EB Garamond', serif;
+        }
+
+        .poppins{                
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .btn-primary{
+            padding: 16px 25px ;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .btn-primary:hover{
+            color: #B68C5A;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- header section (nav and banner) -->
+    <section class="w-full">
+        <!-- navbar style -->
+        <div class="flex flex-col items-center p-4 lg:flex-row justify-around">
+            <div class="mb-3">
+                <img class="" src="images/logo2.png" alt="">
+            </div>
+            <div class="poppins mt-4">
+                <ul class="list-none flex gap-12 flex-wrap items-center">
+                    <li class="">Home</li>
+                    <li class="flex items-center">Services<img width="24" height="24" src="https://img.icons8.com/ios-glyphs/30/B68C5A/more-than.png" alt="more-than"/></li>
+                    <li class="flex items-center">Cases<img width="24" height="24" src="https://img.icons8.com/ios-glyphs/30/B68C5A/more-than.png" alt="more-than"/></li>
+                    <li class="flex items-center">Blog<img width="24" height="24" src="https://img.icons8.com/ios-glyphs/30/B68C5A/more-than.png" alt="more-than"/></li>
+                    <li class="flex items-center">Contact Us<img width="24" height="24" src="https://img.icons8.com/ios-glyphs/30/B68C5A/more-than.png" alt="more-than"/></li>
+                </ul>
+            </div>
+            <div class="mt-4">
+                <button class="btn btn-sm bg-[#B68C5A] text-white hover:text-black border-black sm:btn-sm md:btn-md lg:btn-lg">Free Consultation</button>
+            </div>
+        </div>
+        <!-- navbar style ends -->
+        <div>
+            <div class="hero min-h-screen" style="background-image: url(images/banner.png);">
+                <div class="hero-overlay bg-cover bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="w-full text-center">
+                    <h1 class="garamond mb-5 text-7xl font-bold">We Provide Effective <br> Legal Solutions</h1>
+                    <p class="poppins mb-5">There are many variations of passages of Lorem Ipsum available, but the majority <br> have suffered alteration in some form, by injected humour.</p>
+                    <div class="flex flex-col gap-3 justify-center md:flex-row">
+                        <input type="text" placeholder="Search your services" class="input input-bordered text-[20px] p-7 w-full"/>
+                        <button class="btn-secondary btn-primary text-[18px] bg-[#B68C5A]">Search</button>
+                        
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <!-- header section ends -->
+    <section></section>
+    <section></section>
+    <section></section>
+</body>
+</html>
